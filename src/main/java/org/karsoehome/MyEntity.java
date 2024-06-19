@@ -2,6 +2,7 @@ package org.karsoehome;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 
 /**
@@ -25,5 +26,8 @@ import jakarta.persistence.Entity;
  */
 @Entity
 public class MyEntity extends PanacheEntity {
+
     public String field;
+
+
 }
